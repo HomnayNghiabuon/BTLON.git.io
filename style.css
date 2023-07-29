@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 960px;
+    margin: 0px auto;
+}
+h1{
+    color: white;
+    text-shadow: 3px 3px 3px ;
+    font-size: 35px;
+    text-transform: uppercase;
+
+}
+header section{
+    background-image: linear-gradient(#000066,#0066FF);
+    position: relative;
+}
+header section ul {
+    display: flex;
+    padding-inline-start: unset;
+    
+}
+header section ul li {
+    list-style: none
+    
+}
+header section ul li.image{
+    margin-top: 2.5%;
+    position: absolute;
+
+}
+img{
+    width: 58%;
+}
+
+header section ul li.title{
+    margin: 1px auto;
+    text-align: center;
+}
+    footer{
+        color: white;
+        background-image: linear-gradient(#000066,#0066FF);
+    }
+.form{
+    color: white;
+    background-image: linear-gradient(#0000ff,#00ffff,#33ccff);
+    width: 350px;
+    height: 300px;
+    margin: 10% auto;
+    border-radius: 15px;
+}
+input{
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+    margin: 1px 6%;
+}
+.form table tr td.thead{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.form table {
+    top: 25px;
+    margin: 2px auto;
+}
+.form table tr td{
+    padding-top: 25px;
+}
+.form table tr td button.button1{
+    width: 260px;
+    height: 30px;
+    margin: 5% 1%;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: unset;
+    background-color: yellow;
+}
+td.thead{
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer{
+    position: relative;
+    width: 100%;
+    bottom: 1px;
+}
+footer section{
+   padding: 1px 5px 2px 0 ;
+}
+footer section p{
+    margin-top: 8px;
+ }
+ @media only screen and (max-width: 640px) {
+   
+}
