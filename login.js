@@ -13,7 +13,7 @@ function check(){
     for(let Obj of data_login){
         if(Obj.mssv===mssv.value) {
             if(Obj.pas===pas.value) {
-                window.location.href="./home/home.html";
+                window.location.href="./home.html";
                 return;
             }
             else {
